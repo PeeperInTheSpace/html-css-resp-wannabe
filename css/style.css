@@ -127,3 +127,44 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+@media (max-width: 768px) {
+
+    .container {
+        max-width: fit-content;
+    }
+    
+}
+
+@media (max-width: 480px) {
+
+    .container {
+        width: fit-content;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .site-header {
+        max-width: 480px;
+    }
+
+    .col {
+        min-width: 75%;
+    }
+
+    .text {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1160px) {
+    
+    .container {
+        max-width: fit-content;
+    }
+
+}
